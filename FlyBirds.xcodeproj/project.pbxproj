@@ -13,10 +13,11 @@
 		D12A7BA822D5BB5000044DBC /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = D12A7BA722D5BB5000044DBC /* GameScene.swift */; };
 		D12A7BAA22D5BB5000044DBC /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D12A7BA922D5BB5000044DBC /* GameViewController.swift */; };
 		D12A7BAD22D5BB5000044DBC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D12A7BAB22D5BB5000044DBC /* Main.storyboard */; };
-		D12A7BAF22D5BB5200044DBC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D12A7BAE22D5BB5200044DBC /* Assets.xcassets */; };
+		D12A7BAF22D5BB5200044DBC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D12A7BAE22D5BB5200044DBC /* Images.xcassets */; };
 		D12A7BB222D5BB5200044DBC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D12A7BB022D5BB5200044DBC /* LaunchScreen.storyboard */; };
 		D12A7BBD22D5BB5300044DBC /* FlyBirdsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D12A7BBC22D5BB5300044DBC /* FlyBirdsTests.swift */; };
 		D12A7BC822D5BB5300044DBC /* FlyBirdsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D12A7BC722D5BB5300044DBC /* FlyBirdsUITests.swift */; };
+		D12A7BD722D5C8AA00044DBC /* bird.atlas in Resources */ = {isa = PBXBuildFile; fileRef = D12A7BD622D5C8AA00044DBC /* bird.atlas */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,7 +45,7 @@
 		D12A7BA722D5BB5000044DBC /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		D12A7BA922D5BB5000044DBC /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		D12A7BAC22D5BB5000044DBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		D12A7BAE22D5BB5200044DBC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D12A7BAE22D5BB5200044DBC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		D12A7BB122D5BB5200044DBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D12A7BB322D5BB5200044DBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D12A7BB822D5BB5300044DBC /* FlyBirdsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlyBirdsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -53,6 +54,7 @@
 		D12A7BC322D5BB5300044DBC /* FlyBirdsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlyBirdsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D12A7BC722D5BB5300044DBC /* FlyBirdsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlyBirdsUITests.swift; sourceTree = "<group>"; };
 		D12A7BC922D5BB5300044DBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D12A7BD622D5C8AA00044DBC /* bird.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = bird.atlas; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,13 +105,14 @@
 		D12A7BA022D5BB5000044DBC /* FlyBirds */ = {
 			isa = PBXGroup;
 			children = (
+				D12A7BD622D5C8AA00044DBC /* bird.atlas */,
 				D12A7BA122D5BB5000044DBC /* AppDelegate.swift */,
 				D12A7BA322D5BB5000044DBC /* GameScene.sks */,
 				D12A7BA522D5BB5000044DBC /* Actions.sks */,
 				D12A7BA722D5BB5000044DBC /* GameScene.swift */,
 				D12A7BA922D5BB5000044DBC /* GameViewController.swift */,
 				D12A7BAB22D5BB5000044DBC /* Main.storyboard */,
-				D12A7BAE22D5BB5200044DBC /* Assets.xcassets */,
+				D12A7BAE22D5BB5200044DBC /* Images.xcassets */,
 				D12A7BB022D5BB5200044DBC /* LaunchScreen.storyboard */,
 				D12A7BB322D5BB5200044DBC /* Info.plist */,
 			);
@@ -238,9 +241,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D12A7BD722D5C8AA00044DBC /* bird.atlas in Resources */,
 				D12A7BAD22D5BB5000044DBC /* Main.storyboard in Resources */,
 				D12A7BA422D5BB5000044DBC /* GameScene.sks in Resources */,
-				D12A7BAF22D5BB5200044DBC /* Assets.xcassets in Resources */,
+				D12A7BAF22D5BB5200044DBC /* Images.xcassets in Resources */,
 				D12A7BB222D5BB5200044DBC /* LaunchScreen.storyboard in Resources */,
 				D12A7BA622D5BB5000044DBC /* Actions.sks in Resources */,
 			);
@@ -445,6 +449,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AV5C6CKG84;
 				INFOPLIST_FILE = FlyBirds/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -462,6 +467,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AV5C6CKG84;
 				INFOPLIST_FILE = FlyBirds/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
